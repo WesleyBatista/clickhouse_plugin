@@ -66,6 +66,15 @@ with dag:
 
 ```
 
+`sample.csv`
+```
+x
+1
+2
+3
+4
+```
+
 Setup the `clickhouse_conn_id` on **`Airflow > Admin > Connections`** creating a **HTTP** connection, filling the following fields:
  - **Host**: localhost
  - **Port**: 9000
